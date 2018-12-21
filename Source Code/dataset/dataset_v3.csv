@@ -1,0 +1,151 @@
+ID,Copper (Cu),Oxygen (O),Potassium (K),Iron (Fe),Crops
+1,5.1,3.5,1.4,0.2,Arecanut
+2,4.9,3.0,1.4,0.2,Arecanut
+3,4.7,3.2,1.3,0.2,Arecanut
+4,4.6,3.1,1.5,0.2,Arecanut
+5,5.0,3.6,1.4,0.2,Arecanut
+6,5.4,3.9,1.7,0.4,Arecanut
+7,4.6,3.4,1.4,0.3,Arecanut
+8,5.0,3.4,1.5,0.2,Arecanut
+9,4.4,2.9,1.4,0.2,Arecanut
+10,4.9,3.1,1.5,0.1,Arecanut
+11,5.4,3.7,1.5,0.2,Arecanut
+12,4.8,3.4,1.6,0.2,Arecanut
+13,4.8,3.0,1.4,0.1,Arecanut
+14,4.3,3.0,1.1,0.1,Arecanut
+15,5.8,4.0,1.2,0.2,Arecanut
+16,5.7,4.4,1.5,0.4,Arecanut
+17,5.4,3.9,1.3,0.4,Arecanut
+18,5.1,3.5,1.4,0.3,Arecanut
+19,5.7,3.8,1.7,0.3,Arecanut
+20,5.1,3.8,1.5,0.3,Arecanut
+21,5.4,3.4,1.7,0.2,Arecanut
+22,5.1,3.7,1.5,0.4,Arecanut
+23,4.6,3.6,1.0,0.2,Arecanut
+24,5.1,3.3,1.7,0.5,Arecanut
+25,4.8,3.4,1.9,0.2,Arecanut
+26,5.0,3.0,1.6,0.2,Arecanut
+27,5.0,3.4,1.6,0.4,Arecanut
+28,5.2,3.5,1.5,0.2,Arecanut
+29,5.2,3.4,1.4,0.2,Arecanut
+30,4.7,3.2,1.6,0.2,Arecanut
+31,4.8,3.1,1.6,0.2,Arecanut
+32,5.4,3.4,1.5,0.4,Arecanut
+33,5.2,4.1,1.5,0.1,Arecanut
+34,5.5,4.2,1.4,0.2,Arecanut
+35,4.9,3.1,1.5,0.1,Arecanut
+36,5.0,3.2,1.2,0.2,Arecanut
+37,5.5,3.5,1.3,0.2,Arecanut
+38,4.9,3.1,1.5,0.1,Arecanut
+39,4.4,3.0,1.3,0.2,Arecanut
+40,5.1,3.4,1.5,0.2,Arecanut
+41,5.0,3.5,1.3,0.3,Arecanut
+42,4.5,2.3,1.3,0.3,Arecanut
+43,4.4,3.2,1.3,0.2,Arecanut
+44,5.0,3.5,1.6,0.6,Arecanut
+45,5.1,3.8,1.9,0.4,Arecanut
+46,4.8,3.0,1.4,0.3,Arecanut
+47,5.1,3.8,1.6,0.2,Arecanut
+48,4.6,3.2,1.4,0.2,Arecanut
+49,5.3,3.7,1.5,0.2,Arecanut
+50,5.0,3.3,1.4,0.2,Arecanut
+51,7.0,3.2,4.7,1.4,Other Kharif pulses
+52,6.4,3.2,4.5,1.5,Other Kharif pulses
+53,6.9,3.1,4.9,1.5,Other Kharif pulses
+54,5.5,2.3,4.0,1.3,Other Kharif pulses
+55,6.5,2.8,4.6,1.5,Other Kharif pulses
+56,5.7,2.8,4.5,1.3,Other Kharif pulses
+57,6.3,3.3,4.7,1.6,Other Kharif pulses
+58,4.9,2.4,3.3,1.0,Other Kharif pulses
+59,6.6,2.9,4.6,1.3,Other Kharif pulses
+60,5.2,2.7,3.9,1.4,Other Kharif pulses
+61,5.0,2.0,3.5,1.0,Other Kharif pulses
+62,5.9,3.0,4.2,1.5,Other Kharif pulses
+63,6.0,2.2,4.0,1.0,Other Kharif pulses
+64,6.1,2.9,4.7,1.4,Other Kharif pulses
+65,5.6,2.9,3.6,1.3,Other Kharif pulses
+66,6.7,3.1,4.4,1.4,Other Kharif pulses
+67,5.6,3.0,4.5,1.5,Other Kharif pulses
+68,5.8,2.7,4.1,1.0,Other Kharif pulses
+69,6.2,2.2,4.5,1.5,Other Kharif pulses
+70,5.6,2.5,3.9,1.1,Other Kharif pulses
+71,5.9,3.2,4.8,1.8,Other Kharif pulses
+72,6.1,2.8,4.0,1.3,Other Kharif pulses
+73,6.3,2.5,4.9,1.5,Other Kharif pulses
+74,6.1,2.8,4.7,1.2,Other Kharif pulses
+75,6.4,2.9,4.3,1.3,Other Kharif pulses
+76,6.6,3.0,4.4,1.4,Other Kharif pulses
+77,6.8,2.8,4.8,1.4,Other Kharif pulses
+78,6.7,3.0,5.0,1.7,Other Kharif pulses
+79,6.0,2.9,4.5,1.5,Other Kharif pulses
+80,5.7,2.6,3.5,1.0,Other Kharif pulses
+81,5.5,2.4,3.8,1.1,Other Kharif pulses
+82,5.5,2.4,3.7,1.0,Other Kharif pulses
+83,5.8,2.7,3.9,1.2,Other Kharif pulses
+84,6.0,2.7,5.1,1.6,Other Kharif pulses
+85,5.4,3.0,4.5,1.5,Other Kharif pulses
+86,6.0,3.4,4.5,1.6,Other Kharif pulses
+87,6.7,3.1,4.7,1.5,Other Kharif pulses
+88,6.3,2.3,4.4,1.3,Other Kharif pulses
+89,5.6,3.0,4.1,1.3,Other Kharif pulses
+90,5.5,2.5,4.0,1.3,Other Kharif pulses
+91,5.5,2.6,4.4,1.2,Other Kharif pulses
+92,6.1,3.0,4.6,1.4,Other Kharif pulses
+93,5.8,2.6,4.0,1.2,Other Kharif pulses
+94,5.0,2.3,3.3,1.0,Other Kharif pulses
+95,5.6,2.7,4.2,1.3,Other Kharif pulses
+96,5.7,3.0,4.2,1.2,Other Kharif pulses
+97,5.7,2.9,4.2,1.3,Other Kharif pulses
+98,6.2,2.9,4.3,1.3,Other Kharif pulses
+99,5.1,2.5,3.0,1.1,Other Kharif pulses
+100,5.7,2.8,4.1,1.3,Other Kharif pulses
+101,6.3,3.3,6.0,2.5,Rice
+102,5.8,2.7,5.1,1.9,Rice
+103,7.1,3.0,5.9,2.1,Rice
+104,6.3,2.9,5.6,1.8,Rice
+105,6.5,3.0,5.8,2.2,Rice
+106,7.6,3.0,6.6,2.1,Rice
+107,4.9,2.5,4.5,1.7,Rice
+108,7.3,2.9,6.3,1.8,Rice
+109,6.7,2.5,5.8,1.8,Rice
+110,7.2,3.6,6.1,2.5,Rice
+111,6.5,3.2,5.1,2.0,Rice
+112,6.4,2.7,5.3,1.9,Rice
+113,6.8,3.0,5.5,2.1,Rice
+114,5.7,2.5,5.0,2.0,Rice
+115,5.8,2.8,5.1,2.4,Rice
+116,6.4,3.2,5.3,2.3,Rice
+117,6.5,3.0,5.5,1.8,Rice
+118,7.7,3.8,6.7,2.2,Rice
+119,7.7,2.6,6.9,2.3,Rice
+120,6.0,2.2,5.0,1.5,Rice
+121,6.9,3.2,5.7,2.3,Rice
+122,5.6,2.8,4.9,2.0,Rice
+123,7.7,2.8,6.7,2.0,Rice
+124,6.3,2.7,4.9,1.8,Rice
+125,6.7,3.3,5.7,2.1,Rice
+126,7.2,3.2,6.0,1.8,Rice
+127,6.2,2.8,4.8,1.8,Rice
+128,6.1,3.0,4.9,1.8,Rice
+129,6.4,2.8,5.6,2.1,Rice
+130,7.2,3.0,5.8,1.6,Rice
+131,7.4,2.8,6.1,1.9,Rice
+132,7.9,3.8,6.4,2.0,Rice
+133,6.4,2.8,5.6,2.2,Rice
+134,6.3,2.8,5.1,1.5,Rice
+135,6.1,2.6,5.6,1.4,Rice
+136,7.7,3.0,6.1,2.3,Rice
+137,6.3,3.4,5.6,2.4,Rice
+138,6.4,3.1,5.5,1.8,Rice
+139,6.0,3.0,4.8,1.8,Rice
+140,6.9,3.1,5.4,2.1,Rice
+141,6.7,3.1,5.6,2.4,Rice
+142,6.9,3.1,5.1,2.3,Rice
+143,5.8,2.7,5.1,1.9,Rice
+144,6.8,3.2,5.9,2.3,Rice
+145,6.7,3.3,5.7,2.5,Rice
+146,6.7,3.0,5.2,2.3,Rice
+147,6.3,2.5,5.0,1.9,Rice
+148,6.5,3.0,5.2,2.0,Rice
+149,6.2,3.4,5.4,2.3,Rice
+150,5.9,3.0,5.1,1.8,Rice

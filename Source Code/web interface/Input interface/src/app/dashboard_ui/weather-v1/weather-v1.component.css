@@ -1,0 +1,23 @@
+td, th {
+   padding: 0px 0px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.btn-small {
+  height: 24.4px;
+  line-height: 21.4px;
+  font-size: 8px;
+}
+
+@keyframes anm {
+  0%{background-position: 40px 7px;}
+  100%{background-position: -574px 7px;}
+}
+
+
+table{
+  font-size: x-small;
+}

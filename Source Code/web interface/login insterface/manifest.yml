@@ -1,0 +1,9 @@
+applications:
+  - path: .
+    name: login0Auth2
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    commend: npm run server
+    disk_quota: 1024M
+    services: []

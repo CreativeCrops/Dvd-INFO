@@ -1,0 +1,9 @@
+.anm{
+  animation: 0.31s ease-in-out  anm;
+}
+
+
+@keyframes anm {
+  0%{transform: translateX(100%)}
+  100%{transform: translateX(0%)}
+}

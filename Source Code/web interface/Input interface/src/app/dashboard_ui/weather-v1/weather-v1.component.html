@@ -1,0 +1,687 @@
+<div class="" *ngIf="show" xmlns="">
+  <div class="row">
+
+    <div class="col m6 s12" >
+
+        <div class="card-panel" style="box-shadow: 0 2px 6px -1px rgba(154,154,155,0.75);">
+          <h5 style="font-size: larger;margin-bottom: 18px;"><img src="/assets/img/ic_prices_icon.png" style="width: 16px;margin-right: 8px;">Preferred Crops</h5>
+          <div class="row">
+            <div class="col s2"><img src="https://tse3.mm.bing.net/th?id=OIP.ZLgm3eqCtIt5b9TTdVqlKgAAAA&pid=Api&c=1&h=178&w=178" style="width: 100%"></div>
+            <div class="col s5" style="margin-top: -21px;">
+              <p style="font-size: small;"> Onion,Devala Maharashtra<br>
+              Quanity: <b>605 Tonnes</b><br> price: <b>875.00 ₹</b><br> min/max Price: <b>400.00/1000.00
+                ₹</b><br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      <div class="card-panel" style="box-shadow: 0 2px 6px -1px rgba(154,154,155,0.75);">
+        <div class="row">
+          <h5>Growth Stages of Wheat</h5>
+        <div class="col s4">
+          <div style="background-image: url('/assets/img/sorghumgrowthstages.png');width: 36%;height: 281px;background-size: 40em 90%;background-repeat: no-repeat;animation: 100s linear infinite alternate anm">
+
+          </div>
+          <h5><b>Seedling</b></h5>
+        </div>
+          <div class="col s8">
+            <h5><b>INTRODUCTION</b></h5>
+            <p style="font-size: x-small">
+              A sound understanding of plant growth and development is an essential element of efficient, economic wheat management systems. The impact of frost, heat, drought, diseases, insects, and weeds can be more accurately predicted with a clear picture of the relationships between growth stage and plant response to stress. The optimum timing of fertilizer, irrigation, herbicide, insecticide, and fungicide applications are also best determined by crop growth stage rather than calendar date.
+              The ten major growth stages that the wheat plant progresses through during its life cycle are all familiar to farmers:</p>
+            <ol style="font-size: x-small">
+              <li>Germination
+              <li>Seedling
+              <li>Tillering
+              <li>Stem elongation or Jointing
+              <li>Booting
+              <li>Heading
+              <li>Flowering or Anthesis
+              <li>Milk
+              <li>Dough
+              <li>Ripening
+            </ol>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="col m4 s12 card-panel" style="text-transform: uppercase;" style="box-shadow: 0 2px 6px -1px rgba(154,154,155,0.75);">
+      <h5 class="center-align" >{{data['name']}}</h5>
+      <h6 class="center-align">{{data['weather'][0]['main']}}</h6>
+      <h6 class="center-align">{{data['weather'][0]['description']}}</h6>
+
+      <h2 class="center-align">{{data['main']['temp']}}<span style="position: relative;font-size: 20px;top: -31px;left: 10px;">.c</span></h2>
+      <img src="/assets/img/badge/{{data['weather'][0]['icon']}}.png" style="margin: -3% 66%;position: relative;top: -72px;">
+
+      <div class="row">
+        <div class="col m2 s3 center" style="border: 1px solid #0000001f;    margin-right: 16px;margin-left: 42px;">
+          <img src="/assets/img/humidity.png">
+          <p class="center-align" style="margin-top: -6px;margin-bottom: 0px;font-size: x-small;">{{data['main']['humidity']}}%</p>
+        </div>
+
+        <div class="col m2 s3 center" style="border: 1px solid #0000001f;    margin-right: 16px;">
+          <img src="/assets/img/rainfall.png">
+          <p class="center-align" style="margin-top: -6px;margin-bottom: 0px;font-size: x-small;">{{data['main']['pressure']}}mm</p>
+        </div>
+
+        <div class="col m2 s3 center" style="border: 1px solid #0000001f;    margin-right: 16px;">
+          <img src="/assets/img/temperature.png">
+          <p class="center-align" style="margin-top: -6px;margin-bottom: 0px;font-size: x-small;">{{data['main']['temp_min']+'° '+data['main']['temp_max']+'°'}}</p>
+        </div>
+
+        <div class="col m2 s3 center" style="border: 1px solid #0000001f;    margin-right: 16px;">
+          <img src="/assets/img/wind.png">
+          <p class="center-align" style="margin-top: -6px;margin-bottom: 0px;font-size: x-small;">{{data['wind']['speed']}}kmph  </p>
+        </div>
+      </div>
+
+
+
+      <table class="row" style="font-size: x-small;    margin-left: 2px;" *ngIf="show1">
+          <tr *ngFor="let x of data1['list']|slice:0:15;"><!--slice:0:10;-->
+            <td>{{x['dt_txt']|date:"medium"}}
+            <td>{{x['weather'][0]['main']}}
+            <td>{{x['main']['temp_min']+'° '+x['main']['temp_max']+'°'}}
+            <td><img src="/assets/img/badge/{{x['weather'][0]['icon']}}.png" style="width: 21px;">
+          </td>
+      </table>
+
+    </div>
+
+    <div class="col s10 hoverable" style="padding: 30px">
+      <div class="row">
+        <div class="col s6">
+          <img src="/assets/img/pot-balans-zonder-blauwe-cirkel.png" style="width: 100%">
+          <h4 class="center-align">Growth Stages of Wheat</h4>
+        </div>
+        <div class="col s6">
+          <table style="font-size: small;margin-left: 2px;">
+            <thead>
+            <tr>
+              <th>name
+              <th>values
+            </thead>
+            <tbody >
+              <tr><td>root temperature</td> <td>35°</td></tr>
+              <tr><td>water</td> <td>35°</td></tr>
+              <tr><td>Airflow</td> <td>35°</td></tr>
+              <tr><td>far-red light</td> <td>35°</td></tr>
+              <tr><td>red light</td> <td>35°</td></tr>
+              <tr><td>infrared light</td> <td>35°</td></tr>
+              <tr><td>blue light</td> <td>35°</td></tr>
+              <tr><td>humidity light</td> <td>35°</td></tr>
+              <tr><td>CO<sub>2</sub></td> <td>35°</td></tr>
+              <tr><td>air temperature</td> <td>35°</td></tr>
+              <tr><td>fertilizers</td> <td>35°</td></tr>
+            </tbody>
+
+          </table>
+
+          <h5>MEASURES OF GROWTH AND DEVELOPMENT</h5>
+          <p style="font-size: x-small">
+
+            Several systems have been developed to provide numerical designations for growth and developmental stages. Among these, the Feekes, Zadoks, and Haun scales are used the most frequently (Table 1).<br>
+            The Haun scale growth stages key on rate of development of the main shoot (Table 1). In the early stages, the description of each new leaf is related to the previous leaf that was produced. For example, a seedling with one fully extended leaf and a second leaf that is half as long as the fully extended leaf is at Haun stage 1.5. Similarly, a plant with five fully extended leaves on the main shoot and an emerging sixth main shoot leaf that is 30% as long as the fifth leaf is at Haun stage 5.3. The booting stage numerical designation starts at one more than the number of leaves produced by the main shoot, i.e., the flag leaf number plus one. This can cause confusion because the flag number is not a constant for all cultivars. For this reason, the Haun scale has been used mainly to describe the growth stages before the booting stage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s10 " style="padding: 30px">
+      <h5 class="center-align">MEASURES OF GROWTH AND DEVELOPMENT</h5>
+      <p><b>Note</b>: Remember, Haun scale values from the booting to ripening stages are dependent on the number of leaves produced on the main stem. The example given here is for a plant with eight leaves on the main stem.</p>
+      <div class="row">
+        <div class="col s6 hoverable" >
+          <h5>Germination</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>00</td>
+              <td>Dry seed</td>
+              <td>
+              </td></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>01</td>
+              <td>Water uptake (imbibition) started</td>
+              <td>
+              </td></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>03</td>
+              <td>Imbibition complete</td>
+              <td>
+              </td></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>05</td>
+              <td>Radicle emerged from seed</td>
+              <td>
+              </td></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>07</td>
+              <td>Coleoptile emerged from seed</td>
+              <td>
+              </td></tr>
+            <tr>
+              <td>
+              </td><td>0.0</td>
+              <td>09</td>
+              <td>Leaf just at coleoptile tip</td>
+              <td>
+              </td></tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Seedling developmet</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>1</td>
+              <td>10</td>
+              <td>First leaf emerged</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>1.+</td>
+              <td>11</td>
+              <td>First leaf unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>1.+</td>
+              <td>12</td>
+              <td>2 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>2.+</td>
+              <td>13</td>
+              <td>3 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>3.+</td>
+              <td>14</td>
+              <td>4 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>4.+</td>
+              <td>15</td>
+              <td>5 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>5.+</td>
+              <td>16</td>
+              <td>6 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>6.+</td>
+              <td>17</td>
+              <td>7 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>7.+</td>
+              <td>18</td>
+              <td>8 leaves unfolded</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>8.+</td>
+              <td>19</td>
+              <td>9 or more leaves unfolded</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Tillering</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>20</td>
+              <td>Main shoot only</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>2</td>
+              <td>21</td>
+              <td>Main shoot and 1 tiller</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>22</td>
+              <td>Main shoot and 2 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>23</td>
+              <td>Main shoot and 3 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>24</td>
+              <td>Main shoot and 4 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>25</td>
+              <td>Main shoot and 5 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>3</td>
+              <td>26</td>
+              <td>Main shoot and 6 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>27</td>
+              <td>Main shoot and 7 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>28</td>
+              <td>Main shoot and 8 tillers</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>29</td>
+              <td>Main shoot and 9 or more tillers</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Stem elongation or jointing</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>4-5</td>
+              <td>30</td>
+              <td>Pseudo stem erection</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>6</td>
+              <td>31</td>
+              <td>1st node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>7</td>
+              <td>32</td>
+              <td>2nd node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>33</td>
+              <td>3rd node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>34</td>
+              <td>4th node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>35</td>
+              <td>5th node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>36</td>
+              <td>6th node detectable</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>8</td>
+              <td>37</td>
+              <td>Flag leaf just visible</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>9</td>
+              <td>39</td>
+              <td>Flag leaf ligule/collar just visible</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Booting</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>40</td>
+              <td>----</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>8-9</td>
+              <td><a href="#footnote">41</a></td>
+              <td>Flag leaf sheath extending</td>
+            </tr>
+            <tr>
+              <td>9.2</td>
+              <td>10</td>
+              <td>45</td>
+              <td>Boot just swollen</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>47</td>
+              <td>Flag leaf sheath opening</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>10.1</td>
+              <td>49</td>
+              <td>First awns visible</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Heading</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>10.2</td>
+              <td>10.1</td>
+              <td>50</td>
+              <td>First spikelet of head visible</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>10.2</td>
+              <td>53</td>
+              <td>1/4 of head emerged</td>
+            </tr>
+            <tr>
+              <td>10.5</td>
+              <td>10.3</td>
+              <td>55</td>
+              <td>1/2 of head emerged</td>
+            </tr>
+            <tr>
+              <td>10.7</td>
+              <td>10.4</td>
+              <td>57</td>
+              <td>3/4 of head emerged</td>
+            </tr>
+            <tr>
+              <td>11.0</td>
+              <td>10.5</td>
+              <td>59</td>
+              <td>Emergence of head complete</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Flowering of Anthesis</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>11.4</td>
+              <td>10.51</td>
+              <td>60</td>
+              <td>Beginning of flowering</td>
+            </tr>
+            <tr>
+              <td>11.5</td>
+              <td>
+              </td><td>65</td>
+              <td>Flowering half complete</td>
+            </tr>
+            <tr>
+              <td>11.6</td>
+              <td>
+              </td><td>69</td>
+              <td>Flowering complete</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col s6 hoverable">
+
+          <h5>Milk</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>70</td>
+              <td>----</td>
+            </tr>
+            <tr>
+              <td>12.1</td>
+              <td>10.54</td>
+              <td>71</td>
+              <td>Kernel watery</td>
+            </tr>
+            <tr>
+              <td>13.0</td>
+              <td>
+              </td><td>73</td>
+              <td>Early milk</td>
+            </tr>
+            <tr>
+              <td>11.1</td>
+              <td>
+              </td><td>75</td>
+              <td>Medium milk</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>77</td>
+              <td>Late milk</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col s6 hoverable">
+          <h5>Dough</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>80</td>
+              <td>----</td>
+            </tr>
+            <tr>
+              <td>14.0</td>
+              <td>
+              </td><td>83</td>
+              <td>Early dough</td>
+            </tr>
+            <tr>
+              <td>11.2</td>
+              <td>
+              </td><td>85</td>
+              <td>Soft dough</td>
+            </tr>
+            <tr>
+              <td>15.0</td>
+              <td>
+              </td><td>87</td>
+              <td>Hard dough</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col s6 hoverable">
+          <h5>Ripening</h5>
+          <table>
+            <tbody>
+            <tr><th>Haun</th><th>Feekes</th><th>Zadoks</th><th>General Desription</th></tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>90</td>
+              <td>----</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>11.3</td>
+              <td>91</td>
+              <td>Kernel hard (difficult to separate by fingernail)</td>
+            </tr>
+            <tr>
+              <td>16.0</td>
+              <td>11.4</td>
+              <td>92</td>
+              <td>Kernel hard</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>93</td>
+              <td>Kernel loosening in daytime</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>94</td>
+              <td>Overripe, straw dead and collapsing</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>95</td>
+              <td>Seed dormant</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>96</td>
+              <td>50% of viable seed germinates</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>97</td>
+              <td>Seed not dormant</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>98</td>
+              <td>Secondary dormancy</td>
+            </tr>
+            <tr>
+              <td>
+              </td><td>
+            </td><td>99</td>
+              <td>Secondary dormancy lost</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col s12 m6 offset-m1">
+      <table class="row" style="font-size: x-small;    margin-left: 2px;" *ngIf="show2">
+        <tr *ngFor="let x of numbers"><!--slice:0:10;-->
+          <td>
+            <div class="row">
+              <div class="col s12">
+                <h5 >{{data2[(len+x)]['text']}}</h5>
+              </div>
+
+              <div class="col s6" onclick="f()">
+                <img class="materialboxed" src="{{data2[x]['src']}}" style="width: 100%;">
+              </div>
+              <div class="col s6">
+                <p [innerHTML]="data2[x+((len)*2)]['text']"></p>
+                <button class="btn-small waves-effect waves-light right ">Read more</button>
+
+
+
+              </div>
+
+
+            </div>
+          </td>
+
+
+
+
+      </table>
+
+
+
+
+
+    </div>
+
+  </div>
+</div>
+
+
+

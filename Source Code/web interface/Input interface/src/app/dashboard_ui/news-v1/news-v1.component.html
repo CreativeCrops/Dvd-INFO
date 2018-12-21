@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col s6 offset-s1">
+    <table class="row" style="font-size: x-small;    margin-left: 2px;" *ngIf="show2">
+      <tr *ngFor="let x of numbers"><!--slice:0:10;-->
+        <td>
+          <div class="row">
+            <div class="col s12">
+              <h5 >{{data2[(len+x)]['text']}}</h5>
+            </div>
+
+            <div class="col s6" onclick="f()">
+              <img class="materialboxed" src="{{data2[x]['src']}}" style="width: 100%;">
+            </div>
+            <div class="col s6">
+              <p [innerHTML]="data2[x+((len)*2)]['text']"></p>
+              <button class="btn-small waves-effect waves-light right ">Read more</button>
+
+
+
+            </div>
+
+
+          </div>
+        </td>
+
+
+
+
+    </table>
+
+
+
+
+
+  </div>
+</div>

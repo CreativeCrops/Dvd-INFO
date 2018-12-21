@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col s6 offset-s1">
+    <table class="row" style="font-size: x-small;    margin-left: 2px;" *ngIf="show2">
+      <tr *ngFor="let x of numbers"><!--slice:0:10;-->
+        <td>
+          <div class="row">
+            <div class="col s12">
+              <h5 >{{data2[x]['text']}}</h5>
+              <h6 [innerHTML]="data2[x+1]['text']+' '+data2[x+2]['text']"></h6>
+            </div>
+
+            <div class="col s12">
+              <p [innerHTML]="data2[x+3]['text']"></p>
+              <p [innerHTML]="data2[x+4]['text']"></p>
+              <button class="btn-small waves-effect waves-light right light-green darken-2">Read more</button>
+
+
+
+            </div>
+
+
+          </div>
+        </td>
+
+
+
+
+    </table>
+
+
+
+
+
+  </div>
+</div>

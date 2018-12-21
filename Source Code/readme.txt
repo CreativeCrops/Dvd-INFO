@@ -1,0 +1,307 @@
+coding
+ 	Python 3.7
+	16 vCPU and 64 GB RAM
+	name: DSX-Python35
+dependencies:
+- alabaster=0.7.10
+- anaconda-client=1.6.5
+- anaconda-project=0.8.0
+- asn1crypto=0.22.0
+- astroid=1.5.3
+- astropy=2.0.2
+- babel=2.5.0
+- backports=1.0
+- backports.shutil_get_terminal_size=1.0.0
+- backports.weakref=1.0rc1
+- beautifulsoup4=4.6.0
+- biopython=1.69
+- bitarray=0.8.1
+- bkcharts=0.2
+- blas=1.0
+- blaze=0.11.3
+- bleach=2.0.0
+- bokeh=0.12.10
+- boto=2.48.0
+- boto3=1.4.7
+- botocore=1.7.20
+- bottleneck=1.2.1
+- bzip2=1.0.6
+- ca-certificates=2018.03.07
+- cairo=1.14.12
+- certifi=2018.8.24
+- cffi=1.10.0
+- chardet=3.0.4
+- click=6.7
+- cloudpickle=0.4.0
+- clyent=1.2.2
+- colorama=0.3.9
+- colour=0.1.5
+- contextlib2=0.5.5
+- cryptography=2.2.2
+- curl=7.55.1
+- cycler=0.10.0
+- cython=0.26.1
+- cytoolz=0.8.2
+- dask=0.15.4
+- dask-core=0.15.4
+- datashape=0.5.4
+- dbus=1.10.22
+- decorator=4.1.2
+- distributed=1.19.1
+- docutils=0.14
+- entrypoints=0.2.3
+- et_xmlfile=1.0.1
+- expat=2.2.5
+- fastcache=1.0.2
+- filelock=2.0.12
+- flask=0.12.2
+- flask-cors=3.0.3
+- fontconfig=2.12.4
+- freetype=2.8
+- future=0.16.0
+- get_terminal_size=1.0.0
+- gevent=1.2.2
+- glib=2.53.6
+- glob2=0.5
+- gmp=6.1.2
+- gmpy2=2.0.8
+- graphite2=1.3.10
+- graphviz=2.40.1
+- greenlet=0.4.12
+- gst-plugins-base=1.12.2
+- gstreamer=1.12.2
+- h5py=2.7.0
+- harfbuzz=1.7.4
+- hdf5=1.10.1
+- heapdict=1.0.0
+- html5lib=0.999999999
+- icu=58.2
+- idna=2.6
+- imageio=2.2.0
+- imagesize=0.7.1
+- intel-openmp=2018.0.0
+- ipykernel=4.8.2
+- ipython=6.1.0
+- ipython_genutils=0.2.0
+- ipywidgets=7.1.1
+- iso8601=0.1.12
+- isort=4.2.15
+- itsdangerous=0.24
+- jbig=2.1
+- jdcal=1.3
+- jedi=0.10.2
+- jinja2=2.9.6
+- jmespath=0.9.3
+- jpeg=9b
+- jsonschema=2.6.0
+- jupyter_client=5.1.0
+- jupyter_core=4.3.0
+- krb5=1.16
+- lazy-object-proxy=1.3.1
+- libedit=3.1.20170329
+- libffi=3.2.1
+- libgcc-ng=7.2.0
+- libgfortran-ng=7.2.0
+- libgpuarray=0.6.9
+- libiconv=1.15
+- libpng=1.6.34
+- libpq=10.3
+- libprotobuf=3.4.1
+- libsodium=1.0.15
+- libssh2=1.8.0
+- libstdcxx-ng=7.2.0
+- libtiff=4.0.9
+- libtool=2.4.6
+- libxcb=1.12
+- libxml2=2.9.4
+- libxslt=1.1.29
+- llvmlite=0.20.0
+- locket=0.2.0
+- lxml=4.1.0
+- lzo=2.10
+- mako=1.0.7
+- markdown=2.6.9
+- markupsafe=1.0
+- matplotlib=2.1.0
+- mccabe=0.6.1
+- mistune=0.8.1
+- mkl=2018.0.0
+- mkl-service=1.1.2
+- mpc=1.0.3
+- mpfr=3.1.5
+- mpmath=0.19
+- msgpack-python=0.4.8
+- multipledispatch=0.4.9
+- nbconvert=5.3.1
+- nbformat=4.4.0
+- ncurses=6.1
+- networkx=2.0
+- nltk=3.2.4
+- nose=1.3.7
+- notebook=5.2.1
+- numba=0.35.0
+- numexpr=2.6.2
+- numpy=1.13.3
+- numpydoc=0.7.0
+- odo=0.5.1
+- olefile=0.44
+- openpyxl=2.4.8
+- openssl=1.0.2p
+- packaging=16.8
+- pandas=0.21.0
+- pandoc=1.19.2.1
+- pandocfilters=1.4.2
+- pango=1.41.0
+- partd=0.3.8
+- patchelf=0.9
+- path.py=10.3.1
+- pathlib2=2.3.0
+- patsy=0.4.1
+- pbr=3.1.1
+- pcre=8.41
+- pep8=1.7.0
+- pexpect=4.2.1
+- pickleshare=0.7.4
+- pillow=4.2.1
+- pip=9.0.1
+- pixman=0.34.0
+- pkginfo=1.4.1
+- ply=3.10
+- prompt_toolkit=1.0.15
+- protobuf=3.4.1
+- psutil=5.4.0
+- psycopg2=2.7.4
+- ptyprocess=0.5.2
+- py=1.4.34
+- pycodestyle=2.3.1
+- pycosat=0.6.3
+- pycparser=2.18
+- pycrypto=2.6.1
+- pycurl=7.43.0
+- pyflakes=1.6.0
+- pygments=2.2.0
+- pygpu=0.6.9
+- pylint=1.7.4
+- pyodbc=4.0.17
+- pyopenssl=18.0.0
+- pyparsing=2.2.0
+- pyqt=5.6.0
+- pysocks=1.6.7
+- pytables=3.4.2
+- pytest=3.2.1
+- python=3.5.5
+- python-dateutil=2.6.1
+- pytz=2018.3
+- pywavelets=0.5.2
+- pyyaml=3.12
+- pyzmq=17.0.0
+- qt=5.6.2
+- qtawesome=0.4.4
+- qtpy=1.3.1
+- readline=7.0
+- requests=2.18.4
+- rope=0.10.5
+- ruamel_yaml=0.11.14
+- s3transfer=0.1.10
+- scikit-image=0.13.0
+- scikit-learn=0.19.1
+- scipy=1.0.0
+- seaborn=0.8.0
+- setuptools=36.5.0
+- simplegeneric=0.8.1
+- simplejson=3.11.1
+- singledispatch=3.4.0.3
+- sip=4.18.1
+- six=1.11.0
+- snowballstemmer=1.2.1
+- sortedcollections=0.5.3
+- sortedcontainers=1.5.7
+- sphinx=1.6.3
+- sphinxcontrib=1.0
+- sphinxcontrib-websupport=1.0.1
+- sqlalchemy=1.1.13
+- sqlite=3.24.0
+- statsmodels=0.8.0
+- sympy=1.1.1
+- tabulate=0.8.2
+- tblib=1.3.2
+- tensorflow-base=1.3.0
+- terminado=0.6
+- testpath=0.3.1
+- theano=0.9.0
+- tk=8.6.7
+- toolz=0.8.2
+- tornado=4.5.2
+- tqdm=4.19.5
+- traitlets=4.3.2
+- typing=3.6.2
+- unicodecsv=0.14.1
+- unixodbc=2.3.4
+- urllib3=1.22
+- wcwidth=0.1.7
+- webencodings=0.5.1
+- werkzeug=0.12.2
+- wheel=0.29.0
+- widgetsnbextension=3.1.0
+- wrapt=1.10.11
+- xlrd=1.1.0
+- xlsxwriter=1.0.2
+- xlwt=1.3.0
+- xz=5.2.3
+- yaml=0.1.7
+- zeromq=4.2.3
+- zict=0.1.3
+- zlib=1.2.11
+- pip:
+  - astunparse==1.5.0
+  - backports.shutil-get-terminal-size==1.0.0
+  - brunel==2.3
+  - debtcollector==1.17.0
+  - dill==0.2.7.1
+  - enum34==1.1.6
+  - et-xmlfile==1.0.1
+  - geojson==1.3.5
+  - geopy==1.11.0
+  - ibm-bias-detection
+  - ibm-cos-sdk==2.0.1
+  - ibm-cos-sdk-core==2.0.1
+  - ibm-cos-sdk-s3transfer==2.0.1
+  - ibm-db==2.0.7
+  - ibm-db-sa==0.3.3
+  - ibmdbpy==0.1.5
+  - ipython-genutils==0.2.0
+  - jaydebeapi==0.2.0
+  - jpype1==0.6.2
+  - jpype1-py3==0.5.5.2
+  - jupyter-client==5.1.0
+  - jupyter-core==4.3.0
+  - jupyter-pip==0.3.1
+  - keras==2.1.4
+  - keystoneauth1==3.2.0
+  - lasagne==0.2.dev1
+  - lazy==1.3
+  - lomond==0.1.13
+  - maven-artifact==0.2.0
+  - monotonic==1.3
+  - mpld3==0.3
+  - netaddr==0.7.19
+  - netifaces==0.10.6
+  - oslo.config==4.12.0
+  - oslo.i18n==3.17.0
+  - oslo.serialization==2.20.0
+  - oslo.utils==3.29.0
+  - pixiedust
+  - plotly==2.0.14
+  - positional==1.2.1
+  - prompt-toolkit==1.0.15
+  - pypyodbc==1.3.4
+  - python-keystoneclient==3.13.0
+  - python-swiftclient==3.4.0
+  - rfc3986==1.1.0
+  - ruamel-yaml==0.11.14
+  - stevedore==1.26.0
+  - streamsx==1.9.6
+  - tables==3.4.2
+  - tensorflow==1.3.0
+  - watson-machine-learning-client
+  - xgboost==0.6a2	

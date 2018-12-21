@@ -1,0 +1,25 @@
+
+  <div class="col s9 offset-s1" *ngIf="show2">
+
+
+
+    <div class="col s12 m4" *ngFor="let x of numbers">
+
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.burpee.com{{data2[x]['src']}}">
+          <span class="card-title">{{data2[x]['alt']}}</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red" href="{{data2[len+x]['href']}}"><i class="material-icons">shop</i></a>
+        </div>
+        <div class="card-content" style="padding: 20px">
+          <p>{{data2[len+x]['data-adobe-id']}} - {{data2[len+x]['data-adobe-name']}}</p>
+          <button class="center btn-flat waves-effect waves-light ">{{data2[len+x]['text']}}</button>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+

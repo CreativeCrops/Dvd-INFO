@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+
+.card .card-content {
+  padding: 2px;
+  border-radius: 0 0 2px 2px;
+  text-align: center;
+}
+
+
+.sidenav1 li > a{
+  padding: 0 17px;
+}
